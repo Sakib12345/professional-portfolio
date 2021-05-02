@@ -10,6 +10,7 @@ import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects/Projects";
 import Sidebar from "./components/Sidebar/Sidebar";
+import Skills from "./components/Skills/Skills";
 function App() {
 
   const [isOpen, setIsOpen] = useState(false);
@@ -28,6 +29,9 @@ function App() {
         </Route>
         <Route path="/about">
           <About />
+        </Route>
+        <Route path="/skills">
+          <Skills />
         </Route>
         <Route path="/">
           <Home />
