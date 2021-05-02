@@ -12,23 +12,23 @@ const Sidebar = ({ isOpen, toggle }) => {
             </Icon>
             <SidebarWrapper>
                 <div className='sidebarMenu'>
-                    <div className='navItems'>
-                        <NavLinks onClick={toggle}>
+                <div className='navItems'>
+                        <NavLinks >
                             <Link to='/about' style={{ color: 'white', textDecoration: 'none' }}>About</Link>
                         </NavLinks>
                     </div>
                     <div className='navItems'>
-                        <NavLinks onClick={toggle}>
+                        <NavLinks >
                             <Link to='/projects' style={{ color: 'white', textDecoration: 'none' }}>Projects</Link>
                         </NavLinks>
                     </div>
                     <div className='navItems'>
-                        <NavLinks onClick={toggle}>
+                        <NavLinks to='/skills'>
                             <Link to='/skills' style={{ color: 'white', textDecoration: 'none' }}>Skills</Link>
                         </NavLinks>
                     </div>
                     <div className='navItems'>
-                        <NavLinks onClick={toggle}>
+                        <NavLinks to='contact'>
                             <Link to='/contact' style={{ color: 'white', textDecoration: 'none' }}>Contact</Link>
                         </NavLinks>
                     </div>

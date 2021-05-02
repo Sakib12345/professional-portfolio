@@ -27,12 +27,12 @@ const Navbar = ({ toggle }) => {
                         </NavLinks>
                     </div>
                     <div className='navItems'>
-                        <NavLinks to='/skills'>
+                        <NavLinks >
                             <Link to='/skills' style={{ color: 'white', textDecoration: 'none' }}>Skills</Link>
                         </NavLinks>
                     </div>
                     <div className='navItems'>
-                        <NavLinks to='contact'>
+                        <NavLinks >
                             <Link to='/contact' style={{ color: 'white', textDecoration: 'none' }}>Contact</Link>
                         </NavLinks>
                     </div>
