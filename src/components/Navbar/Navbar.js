@@ -5,7 +5,7 @@ import { NavLinks } from './NavbarElement';
 import { FaBars } from 'react-icons/fa';
 
 
-const Navbar = ({toggle}) => {
+const Navbar = ({ toggle }) => {
     return (
         <div className='nav'>
             <div className='navbarContainer'>
@@ -18,11 +18,13 @@ const Navbar = ({toggle}) => {
                 <div className='navMenu'>
                     <div className='navItems'>
                         <NavLinks >
-                            <Link to='about' style={{color:'white' , textDecoration:'none'}}>About</Link>
+                            <Link to='/about' style={{ color: 'white', textDecoration: 'none' }}>About</Link>
                         </NavLinks>
                     </div>
                     <div className='navItems'>
-                        <NavLinks to='projects'>Projects</NavLinks>
+                        <NavLinks >
+                            <Link to='/projects' style={{ color: 'white', textDecoration: 'none' }}>Projects</Link>
+                        </NavLinks>
                     </div>
                     <div className='navItems'>
                         <NavLinks to='skills'>Skills</NavLinks>
