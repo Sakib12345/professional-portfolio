@@ -22,7 +22,7 @@ h4{
     font-weight: 600;
     color:rgb(0, 55, 131)
 }
-img{
+.image{
     box-shadow: 2px 2px 5px lightgray;
     border-radius:5px;
 }
