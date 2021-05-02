@@ -13,7 +13,10 @@ function App() {
         <Switch>
         <Route path="/">
             <Home></Home>
-          </Route>
+        </Route>
+        <Route path="/about">
+            <Home></Home>
+        </Route>
         </Switch>
       </Router>
   );

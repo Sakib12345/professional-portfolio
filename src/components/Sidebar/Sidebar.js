@@ -12,16 +12,16 @@ const Sidebar = ({isOpen, toggle}) => {
             <SidebarWrapper>
             <div className='sidebarMenu'>
                     <div className='navItems'>
-                        <NavLinks to='about'>About</NavLinks>
+                        <NavLinks to='about' onClick={toggle}>About</NavLinks>
                     </div>
                     <div className='navItems'>
-                        <NavLinks to='projects'>Projects</NavLinks>
+                        <NavLinks to='projects' onClick={toggle}>Projects</NavLinks>
                     </div>
                     <div className='navItems'>
-                        <NavLinks to='skills'>Skills</NavLinks>
+                        <NavLinks to='skills' onClick={toggle}>Skills</NavLinks>
                     </div>
                     <div className='navItems'>
-                        <NavLinks to='contact'>Contact</NavLinks>
+                        <NavLinks to='contact' onClick={toggle}>Contact</NavLinks>
                     </div>
                 </div>
             </SidebarWrapper>

@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Header from '../Header/Header';
 import Navbar from '../Navbar/Navbar';
 import Sidebar from '../Sidebar/Sidebar';
 
@@ -14,6 +15,7 @@ const Home = () => {
         <div>
             <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
             <Navbar toggle={toggle}></Navbar>
+            <Header></Header>
         </div>
     );
 };

@@ -17,7 +17,9 @@ const Navbar = ({toggle}) => {
                 </div>
                 <div className='navMenu'>
                     <div className='navItems'>
-                        <NavLinks to='about'>About</NavLinks>
+                        <NavLinks >
+                            <Link to='about' style={{color:'white' , textDecoration:'none'}}>About</Link>
+                        </NavLinks>
                     </div>
                     <div className='navItems'>
                         <NavLinks to='projects'>Projects</NavLinks>
