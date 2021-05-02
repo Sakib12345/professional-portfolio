@@ -1,3 +1,6 @@
 .sidebarMenu{
     margin-left: 30%;
 }
+.sidebarItem{
+    height: 80px;
+}

@@ -1,8 +1,7 @@
 import React from 'react';
-import { NavLinks } from '../Navbar/NavbarElement';
-import { CloseBtn, Icon, SidebarContainer, SidebarWrapper } from './SidebarElements';
+import { CloseBtn, Icon, SidebarContainer, SideBarLinks, SidebarWrapper } from './SidebarElements';
 import './SIdebar.css'
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 const Sidebar = ({ isOpen, toggle }) => {
     return (
@@ -12,25 +11,25 @@ const Sidebar = ({ isOpen, toggle }) => {
             </Icon>
             <SidebarWrapper>
                 <div className='sidebarMenu'>
-                <div className='navItems'>
-                        
+                    <div className='sidebarItems'>
+                        <SideBarLinks >
                             <Link to='/about' style={{ color: 'white', textDecoration: 'none' }}>About</Link>
-                        
+                        </SideBarLinks>
                     </div>
-                    <div className='navItems'>
-                        <NavLinks >
+                    <div className='sidebarItems'>
+                        <SideBarLinks to='/projects'>
                             <Link to='/projects' style={{ color: 'white', textDecoration: 'none' }}>Projects</Link>
-                        </NavLinks>
+                        </SideBarLinks>
                     </div>
-                    <div className='navItems'>
-                        <NavLinks to='/skills'>
+                    <div className='sidebarItems'>
+                        <SideBarLinks to='/skills'>
                             <Link to='/skills' style={{ color: 'white', textDecoration: 'none' }}>Skills</Link>
-                        </NavLinks>
+                        </SideBarLinks>
                     </div>
-                    <div className='navItems'>
-                        <NavLinks to='contact'>
+                    <div className='sidebarItems'>
+                        <SideBarLinks to='contact'>
                             <Link to='/contact' style={{ color: 'white', textDecoration: 'none' }}>Contact</Link>
-                        </NavLinks>
+                        </SideBarLinks>
                     </div>
                 </div>
             </SidebarWrapper>

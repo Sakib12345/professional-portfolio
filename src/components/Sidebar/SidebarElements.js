@@ -1,5 +1,7 @@
 import styled from 'styled-components';
-import {FaTimes} from 'react-icons/fa'
+import {FaTimes} from 'react-icons/fa';
+import {Link as LinkR} from 'react-router-dom';
+
 
 export const SidebarContainer = styled.aside`
     position: fixed;
@@ -15,6 +17,21 @@ export const SidebarContainer = styled.aside`
     opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
     top: ${({isOpen}) => (isOpen ? '0' : '-100%')};
 `;
+export const SideBarLinks = styled(LinkR)`
+    color: #fff;
+    display:flex;
+    align-items:center;
+    text-decoration: none;
+    padding: 0 3rem;
+    height: 100%;
+    cursor: pointer;
+    font-size:20px;
+    font-weight:600;
+
+    &.active{
+        border-bottom: 3px solid #FFD700;
+    }
+`
 
 export const CloseBtn = styled(FaTimes)`
     color:#FFD700;
