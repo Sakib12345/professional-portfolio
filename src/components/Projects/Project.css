@@ -6,8 +6,8 @@
     margin: 10px;
     height: 520px;
     border-radius:10px;
-    box-shadow: 4px 2px 20px rgb(221, 221, 221);
-    background: #fdfcf3;
+    box-shadow: 1px 1px 20px rgb(85, 85, 85);
+    background: #ffffff;
 }
 .small-card{
     border: 2px solid rgb(184, 0, 0);
