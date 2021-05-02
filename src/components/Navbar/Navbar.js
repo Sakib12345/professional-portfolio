@@ -27,10 +27,14 @@ const Navbar = ({ toggle }) => {
                         </NavLinks>
                     </div>
                     <div className='navItems'>
-                        <NavLinks to='skills'>Skills</NavLinks>
+                        <NavLinks to='/skills'>
+                            <Link to='/skills' style={{ color: 'white', textDecoration: 'none' }}>Skills</Link>
+                        </NavLinks>
                     </div>
                     <div className='navItems'>
-                        <NavLinks to='contact'>Contact</NavLinks>
+                        <NavLinks to='contact'>
+                            <Link to='/contact' style={{ color: 'white', textDecoration: 'none' }}>Contact</Link>
+                        </NavLinks>
                     </div>
                 </div>
             </div>
