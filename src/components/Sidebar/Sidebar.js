@@ -13,9 +13,9 @@ const Sidebar = ({ isOpen, toggle }) => {
             <SidebarWrapper>
                 <div className='sidebarMenu'>
                 <div className='navItems'>
-                        <NavLinks >
+                        
                             <Link to='/about' style={{ color: 'white', textDecoration: 'none' }}>About</Link>
-                        </NavLinks>
+                        
                     </div>
                     <div className='navItems'>
                         <NavLinks >
