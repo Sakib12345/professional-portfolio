@@ -10,7 +10,7 @@ const Navbar = ({ toggle }) => {
         <div className='nav'>
             <div className='navbarContainer'>
                 <div className='navLogo'>
-                    <h2>Sakib</h2>
+                        <Link to='/' style={{  color: 'white', textDecoration: 'none' }}>SAKIB</Link>
                 </div>
                 <div className='navMobileIcon' onClick={toggle}>
                     <FaBars />

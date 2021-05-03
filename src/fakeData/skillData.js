@@ -56,6 +56,10 @@ const skillData = [
         name:'mySQL'
     },
     {
+        img:'https://i.ibb.co/m6Dk32j/firebase.png',
+        name:'Firebase'
+    },
+    {
         img:'https://i.ibb.co/RP4nP4b/heroku.png',
         name:'Heroku'
     },
