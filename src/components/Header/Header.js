@@ -14,17 +14,19 @@ const Header = () => {
                     <HeaderP>Hello, I am</HeaderP>
                     <HeaderH1>Md Sakib Al Islam</HeaderH1>
                     <HeaderP>
-                        
+
                         <Typical
                             steps={['A Full Stack Developer', 1000,
-                            'A Creative Web Designer', 1000,
-                            'A Quick Learner', 1000,
-                        ]}
+                                'A Creative Web Designer', 1000,
+                                'A Quick Learner', 1000,
+                            ]}
                             loop={Infinity}
                             wrapper="p"
                         />
                     </HeaderP>
-                    <Btn><a style={{ textDecoration: 'none' }} href="https://drive.google.com/file/d/1LU7HtNdR-gZTSwbmPFOXPj1RLxD35PKQ/view?usp=sharing">Download CV</a></Btn>
+                    <Btn
+                    ><a
+                     style={{ textDecoration: 'none' }} href="https://drive.google.com/file/d/1LU7HtNdR-gZTSwbmPFOXPj1RLxD35PKQ/view?usp=sharing">Download CV</a></Btn>
                 </HeaderContent>
             </HeaderContainer>
         </div>

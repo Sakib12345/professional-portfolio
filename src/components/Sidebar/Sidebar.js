@@ -22,12 +22,12 @@ const Sidebar = ({ isOpen, toggle }) => {
                         </SideBarLinks>
                     </div>
                     <div className='sidebarItems'>
-                        <SideBarLinks to='/skills'>
+                        <SideBarLinks>
                             <Link to='/skills' style={{ color: 'white', textDecoration: 'none' }}>Skills</Link>
                         </SideBarLinks>
                     </div>
                     <div className='sidebarItems'>
-                        <SideBarLinks to='contact'>
+                        <SideBarLinks>
                             <Link to='/contact' style={{ color: 'white', textDecoration: 'none' }}>Contact</Link>
                         </SideBarLinks>
                     </div>

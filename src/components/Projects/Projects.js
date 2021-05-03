@@ -23,7 +23,7 @@ const Projects = () => {
             <div className="container">
                 <div className="row">
 
-                    <div className="col-md-4">
+                    <div className="col-md-12 col-sm-6 col-12 col-lg-4 ">
                         <a style={{ textDecoration: 'none', color: 'black' }} href="https://filmy-32c70.web.app/">
                             <div className="card">
                                 <img className="image" style={{ marginBottom: '15px' }} src={filmy} alt="" />
@@ -33,32 +33,32 @@ const Projects = () => {
                                 Admin Panel (Make new service, make new Admin, Delete Service)
                             </p>
                                 <div className="row">
-                                    <div className="col-md-4">
+                                    <div className="col-md-4 col-sm-4 col-4">
                                         <div className="small-card">
                                             <p>React JS</p>
                                         </div>
                                     </div>
-                                    <div className="col-md-4">
+                                    <div className="col-md-4  col-sm-4 col-4">
                                         <div className="small-card">
                                             <p>Node JS</p>
                                         </div>
                                     </div>
-                                    <div className="col-md-4">
+                                    <div className="col-md-4  col-sm-4 col-4">
                                         <div className="small-card">
                                             <p>Express JS</p>
                                         </div>
                                     </div>
-                                    <div className="col-md-4">
+                                    <div className="col-md-4 col-sm-4 col-4">
                                         <div className="small-card">
                                             <p>MongoDB</p>
                                         </div>
                                     </div>
-                                    <div className="col-md-4">
+                                    <div className="col-md-4 col-sm-4 col-4">
                                         <div className="small-card">
                                             <p>Firebase</p>
                                         </div>
                                     </div>
-                                    <div className="col-md-4">
+                                    <div className="col-md-4 col-sm-4 col-4">
                                         <div className="small-card">
                                             <p>Heroku</p>
                                         </div>
@@ -68,7 +68,7 @@ const Projects = () => {
                         </a>
                     </div>
 
-                    <div className="col-md-4">
+                    <div className="col-md-12 col-sm-6 col-12 col-lg-4">
                         <div className="card">
                             <img className="image" style={{ marginBottom: '15px' }} src={easyExpress} alt="" />
                             <h4>Easy Express - An e-Commerce</h4>
@@ -76,37 +76,37 @@ const Projects = () => {
                             Admin can upload and delete products.
                             </p>
                             <div className="row">
-                                <div className="col-md-4">
+                                <div className="col-md-4 col-sm-4 col-4">
                                     <div className="small-card">
                                         <p>React JS</p>
                                     </div>
                                 </div>
-                                <div className="col-md-4">
+                                <div className="col-md-4 col-sm-4 col-4">
                                     <div className="small-card">
                                         <p>Bootstrap</p>
                                     </div>
                                 </div>
-                                <div className="col-md-4">
+                                <div className="col-md-4 col-sm-4 col-4">
                                     <div className="small-card">
                                         <p>Node JS</p>
                                     </div>
                                 </div>
-                                <div className="col-md-4">
+                                <div className="col-md-4 col-sm-4 col-4">
                                     <div className="small-card">
                                         <p>Express JS</p>
                                     </div>
                                 </div>
-                                <div className="col-md-4">
+                                <div className="col-md-4  col-sm-4 col-4">
                                     <div className="small-card">
                                         <p>MongoDB</p>
                                     </div>
                                 </div>
-                                <div className="col-md-4">
+                                <div className="col-md-4 col-sm-4 col-4">
                                     <div className="small-card">
                                         <p>Firebase</p>
                                     </div>
                                 </div>
-                                <div className="col-md-4">
+                                <div className="col-md-4 col-sm-4 col-4">
                                     <div className="small-card">
                                         <p>Heroku</p>
                                     </div>
@@ -114,24 +114,24 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-12 col-sm-6 col-12 col-lg-4">
                         <div className="card">
                             <img className="image" src={heroRide} style={{ marginBottom: '15px' }} alt="" />
                             <h4>Hero Ride</h4>
                             <p>This a single page application.Hero Ride is a simple ride sharing app with google map.User must have to create his/her account using their google account or random sign up system.Logged In user can choose their vehicle for transportation and select their location and destination.
                             </p>
                             <div className="row">
-                                <div className="col-md-4">
+                                <div className="col-md-4 col-sm-4 col-4">
                                     <div className="small-card">
                                         <p>React JS</p>
                                     </div>
                                 </div>
-                                <div className="col-md-4">
+                                <div className="col-md-4 col-sm-4 col-4">
                                     <div className="small-card">
                                         <p>Firebase</p>
                                     </div>
                                 </div>
-                                <div className="col-md-4">
+                                <div className="col-md-4  col-sm-4 col-4">
                                     <div className="small-card">
                                         <p>Bootstrap</p>
                                     </div>
