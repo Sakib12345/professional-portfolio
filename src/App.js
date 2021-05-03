@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import './App.css';
 import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects/Projects";
@@ -21,14 +22,17 @@ function App() {
 
   return (
     <Router>
-  <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
-            <Navbar toggle={toggle}></Navbar>
+      <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
+      <Navbar toggle={toggle}></Navbar>
       <Switch>
         <Route path="/projects">
           <Projects />
         </Route>
         <Route path="/about">
           <About />
+        </Route>
+        <Route path="/contact">
+          <Contact />
         </Route>
         <Route path="/skills">
           <Skills />

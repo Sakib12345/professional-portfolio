@@ -1,0 +1,25 @@
+.contactSection{
+    box-shadow: 3px 2px 20px rgb(85, 85, 85);
+    padding: 40px;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 10px;
+    height: 500px;
+    background-color:rgb(255, 255, 255)
+}
+.contact-font{
+    font-size:40px;
+}
+
+@media Screen and (max-width: 768px){
+    .contactSection{
+        height:570px;
+        padding: 20px;
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+    .contact-font{
+        font-size:30px;
+    }
+}
