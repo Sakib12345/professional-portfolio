@@ -25,8 +25,9 @@ export const SideBarLinks = styled(LinkR)`
     padding: 0 3rem;
     height: 100%;
     cursor: pointer;
-    font-size:20px;
+    font-size:30px;
     font-weight:600;
+    margin-bottom:30px;
 
     &.active{
         border-bottom: 3px solid #FFD700;
