@@ -10,19 +10,18 @@ AOS.init();
 
 const Projects = () => {
     return (
-        <div
-            data-aos="fade-up"
-            data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="500"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="false"
-            data-aos-anchor-placement="top-center"
-        >
             <div className="container">
-                <div className="row">
-
+            <h2 style={{fontSize:'40px', fontWeight:'700'}} className='text-center text-white mb-5'>--- Projects ---</h2>
+                <div
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+                className="row">
                     <div className="col-md-12 col-sm-6 col-12 col-lg-4 ">
                         <a style={{ textDecoration: 'none', color: 'black' }} href="https://filmy-32c70.web.app/">
                             <div className="card">
@@ -141,8 +140,6 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-        </div>
-
     );
 };
 
