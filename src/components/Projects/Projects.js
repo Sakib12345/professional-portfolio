@@ -3,10 +3,23 @@ import './Project.css';
 import filmy from '../../images/filmy.PNG'
 import heroRide from '../../images/hero-ride.PNG'
 import easyExpress from '../../images/easy-express.PNG'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const Projects = () => {
     return (
-        <div>
+        <div
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center"
+        >
             <div className="container">
                 <div className="row">
 
