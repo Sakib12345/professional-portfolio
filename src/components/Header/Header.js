@@ -26,7 +26,7 @@ const Header = () => {
                     </HeaderP>
                     <Btn
                     ><a
-                     style={{ textDecoration: 'none' }} href="https://drive.google.com/file/d/1LU7HtNdR-gZTSwbmPFOXPj1RLxD35PKQ/view?usp=sharing">Download CV</a></Btn>
+                     style={{ textDecoration: 'none' }} href="https://drive.google.com/drive/u/0/folders/1_Ak3t81Nt15oy8DXLxxGyNCQlQyhCW4b">Download CV</a></Btn>
                 </HeaderContent>
             </HeaderContainer>
         </div>
